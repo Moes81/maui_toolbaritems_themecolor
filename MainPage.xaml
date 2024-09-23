@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ToolbarItem_ThemeColors.MainPage">
     
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Icon 1" />
+        <ToolbarItem Text="Icon 2" />
+    </ContentPage.ToolbarItems>
+    
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
